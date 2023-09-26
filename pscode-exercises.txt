@@ -1,0 +1,61 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+sum = a + b
+
+// Exercise 2: Check if a Number is Even or Odd
+
+if num % 2 > 0; then
+  echo "Number is even"; else
+  echo  "Number is odd"
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.
+n = 0
+while n < 5;
+  v = read "Enter a number: "
+    if v - v == 0; then
+      if n = 0; then
+        a = v
+      if n = 1; then 
+        b = v
+      if n = 2; then
+        c = v
+      if n = 3; then
+        d = v
+      if n = 4; then
+        e = v  
+      n = n + 1
+
+b) Calculate the average of the five numbers.
+avg = (a + b + c + d + e)/5
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+//Find the (s)mallest of the entered numbers
+s = a
+if b <= s; then
+  s = b
+if c <= s; then
+  s = c
+if d <= s; then
+  s = d
+if e <= s; then
+  s = e
+
+//Find the (l)argest of the entered numbers
+l = a
+if b >= l; then
+  l = b
+if c >= l; then
+  l = c
+if d >= l; then
+  l = d
+if e >= l; then
+  l = e
+
+d) Write out the results found from steps b and c with a message describing what they are
+echo "The smallest number entered was " s
+echo "The largest number entered was " l
+
+-- END --
